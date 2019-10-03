@@ -1,7 +1,35 @@
+# hugoBasicExample
+
+This is an example site for [Hugo](https://gohugo.io/).
+
+It is intended to be a demo site for the various [Hugo themes](https://themes.gohugo.io/).
+
+# Using
+
+1. [Install Hugo](https://gohugo.io/overview/installing/)
+2. Clone this repository
+```bash
+git clone https://github.com/gohugoio/hugoBasicExample.git
+cd hugoBasicExample
+```
+3. Clone the repository you want to test. If you want to test all hugo themes, you can clone [the full list](https://github.com/gohugoio/hugoThemes)
+```bash
+git clone --recursive https://URL/OF/YOUR/THEME themes/YOURTHEME
+```
+or
+```bash
+git clone --recursive https://github.com/gohugoio/hugoThemes.git themes
+```
+4. Run Hugo and select the theme of your choosing
+```bash
+hugo server -t YOURTHEME
+```
+
 # HourGlass
 
 HourGlass is a alpha test of a Payment System based on the stellar network, that's being floated for XR Denver for their financial needs.
 
+https://pad.riseup.net/p/SjZB-1j27BJd6qnsNbW-
 
 ## What is it and how the hell does it work?
 
@@ -47,11 +75,10 @@ The next step is to send some kind of proof of purchase in a direct chat to the 
 
   Once you have these HourGlass Tokens, they can be reimbursed in a multitude of ways.
 ##### 1. Direct Exchange
-Its possible to reimburse these HourGlass tokens for 1 dollar a token by meeting in person with anyone mentioned in this list:
+Its possible to reimburse these HourGlass tokens for 1 dollar a token by meeting any of the xr denver infrastructure team.
 
 ##### 2. Stellar Integration
 There should be a bot set up with [kelp](https://github.com/stellar/kelp), that should keep the price of a HourGlass priced at the equivalent of 1 dollar worth of lumens. This makes it possible to redeem HourGlass for any other asset on the stellar network.
 
 ##### 3. Online Payment Reimbursement (Not Implemented)
 There might be a system set up in the future that would integrate with an online payment service (paypal or amazon or somthing else), to allow automatic reimbursement.
-
